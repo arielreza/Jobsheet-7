@@ -25,6 +25,9 @@ public class DoWhileCuti18 {
                     System.out.println("Sisa Jatah Cuti Anda Tidak Mencukupi , Masukkan Sesuai Jatah Cuti Anda!");
                     continue;
                 }
+            } else if (konfirmasi.equalsIgnoreCase("t")) {
+                System.out.println("Silahkan Masuk Kerja MAS!");
+                break;
             }
 
         } while (jatahCuti > 0);
